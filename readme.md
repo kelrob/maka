@@ -26,7 +26,11 @@ To run the application on your local machine, run the following command
 ```bash
 # Starts the application locally on your computer.
 # We are using serve because it's a typescript project, so we can convert 'ts' to 'js'.
+# To make edit run the command below so it can compile immediately
 npm run serve
+
+# To run the application directly run the command below
+npm run start
 ```
 
 To run the test on your local machine, run the following command
