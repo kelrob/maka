@@ -4,6 +4,7 @@
   "description": "Maka Technical Assessment",
   "main": "server.js",
   "scripts": {
+    "start": "node dist/server",
     "test": "mocha ./dist/test --timeout 10000",
     "serve": "tsc -w & nodemon ./dist/server"
   },
