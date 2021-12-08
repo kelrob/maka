@@ -10,6 +10,7 @@ class Routes {
         this.baseUrl = process.env.BASE_URL || "/api/v1/";
     }
     routes(app) {
+        app.get("/", this.publicController.index);
         // Check health status of api
         app.get(this.baseUrl + "healthz", this.publicController.healthz);
         // Add item or update inventory

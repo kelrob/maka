@@ -8,6 +8,8 @@ export class Routes {
   public baseUrl: string = process.env.BASE_URL || "/api/v1/";
 
   public routes(app: Application): void {
+    app.get("/", this.publicController.index);
+
     // Check health status of api
     app.get(this.baseUrl + "healthz", this.publicController.healthz);
 
