@@ -8,6 +8,12 @@ This project was designed using `ExpressJS` as a framework and `TypeScript`.
 
 Start by cloning the project on your local computer and run the following command to get started.
 
+In the root folder directory, run the following to install typescript
+
+```bash
+npm install --global typescript
+```
+
 In the root folder directory, run the following command
 
 ```bash
@@ -21,4 +27,10 @@ To run the application on your local machine, run the following command
 # Starts the application locally on your computer.
 # We are using serve because it's a typescript project, so we can convert 'ts' to 'js'.
 npm run serve
+```
+
+To run the test on your local machine, run the following command
+
+```bash
+npm run test
 ```
